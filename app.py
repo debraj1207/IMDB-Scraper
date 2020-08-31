@@ -3,9 +3,6 @@ from scrape_imdb.imdb_scrape import get_movies_paged
 
 app = Flask(__name__)
 
-@app.route('/debraj')
-def func():
-    return render_template("first.html")
 
 @app.route('/')
 def function():
